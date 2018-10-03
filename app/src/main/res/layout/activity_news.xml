@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_parent"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/loading_spinner"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="@dimen/padding" />
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/list"
+        style="@style/Txt_style_std"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/empty"
+        style="@style/match_parent"
+        android:text="@string/no_news" />
+
+</LinearLayout>

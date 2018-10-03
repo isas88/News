@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/match_wrap">
+
+        <TextView
+            android:id="@+id/section_name"
+            style="@style/story_end"
+            android:gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/author_name"
+            style="@style/story_end"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/date_published"
+            style="@style/story_end"
+            android:gravity="right"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/story_title"
+        style="@style/match_wrap"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="left"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/mid_text_size"
+        android:padding="@dimen/padding"/>
+
+    <TextView
+        android:id="@+id/news_url"
+        style="@style/wrap_content" />
+
+</LinearLayout>

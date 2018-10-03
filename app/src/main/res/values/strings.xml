@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="no_news">No News available currently, please retry</string>
+    <string name="no_internet">no active Internet connection, please check Wifi if connected or swtch on the mobile data</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <string name="settings_days_label">days needed</string>
+    <string name="settings_days_key" translatable="false">days</string>
+    <string name="settings_days_default" translatable="false">today</string>
+
+    <string name="settings_search_label">news search</string>
+    <string name="settings_search_key" translatable="false">search</string>
+    <string name="settings_search_default" translatable="false">cricket</string>
+
+    <string name="settings_days_today_label">today</string>
+
+    <string name="settings_days_today_value" translatable="false">today</string>
+
+    <string name="settings_days_past2days_label">last 2 days</string>
+    <string name="settings_days_past2days_value" translatable="false">2</string>
+
+    <string name="settings_days_past3days_label">last 3 days</string>
+    <string name="settings_days_past3days_value" translatable="false">3</string>
+
+</resources>
